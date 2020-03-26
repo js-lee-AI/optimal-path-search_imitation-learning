@@ -14,12 +14,14 @@ def train_discrim(discrim, memory, discrim_optim, demonstrations, args):
 
     for _ in range(args.discrim_update_num):
         learner = discrim(torch.cat([states, actions], dim=1))
+
         demonstrations = torch.Tensor(demonstrations)
+
         expert = discrim(demonstrations)
 
         discrim_loss = criterion(learner, torch.ones((states.shape[0], 1))) + \
                         criterion(expert, torch.zeros((demonstrations.shape[0], 1)))
-                
+
         discrim_optim.zero_grad()
         discrim_loss.backward()
         discrim_optim.step()

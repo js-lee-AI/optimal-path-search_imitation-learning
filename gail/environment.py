@@ -25,8 +25,8 @@ class Env(tk.Tk):
         self.canvas = self.build_canvas(self.a, self.b)
         self.texts = []
 
-        print('self.a = ', self.a)
-        print('self.b = ', self.b)
+        # print('self.a = ', self.a)
+        # print('self.b = ', self.b)
         ####
         self.previous = 0
         self.r = [] # 이전 상태 사각형 그리기
@@ -45,9 +45,6 @@ class Env(tk.Tk):
                            width=WIDTH * UNIT * 10) # 10곱함 임시로
 
 
-
-
-
          ### 여러번 그리지 않게 조건문 생성
 
         # 그리드 생성
@@ -60,13 +57,6 @@ class Env(tk.Tk):
 
         # 캔버스에 이미지 추가
         self.rectangle = canvas.create_image(a, b, image=self.shapes[0])
-        print('a = ', a)
-        print('b = ', b)
-        # self.triangle1 = canvas.create_image(250, 150, image=self.shapes[1])
-        # self.triangle2 = canvas.create_image(150, 250, image=self.shapes[1])
-        # self.circle = canvas.create_image(250, 250, image=self.shapes[2])
-
-
 
         label = tk.Label(self, text=str(width))
         label.pack()
@@ -137,17 +127,14 @@ class Env(tk.Tk):
 
     def reset(self):
         self.update()
-        time.sleep(0.5)
+        # time.sleep(0.25)
         x, y = self.canvas.coords(self.rectangle) # 시작점을 주면 됨.
-        # print('dd = ', x, y)
-        print('cc = ', self.a, self.b)
-        # self.canvas.move(self.rectangle, UNIT / 2 - x, UNIT / 2 - y)
 
         self.canvas.move(self.rectangle, -x, -y)
 
         self.canvas.move(self.rectangle, self.a, self.b)
 
-        print('사각형 좌표 = ', self.canvas.coords(self.rectangle))
+        # print('사각형 좌표 = ', self.canvas.coords(self.rectangle))
         ### 이전 상태 초기화 ###
         for i in self.r:
             self.canvas.delete(i)
@@ -165,10 +152,6 @@ class Env(tk.Tk):
         base_action = np.array([0, 0])
         self.render()
 
-
-        # ### 이전 상태 색칠 ####
-        # self.a[self.previous] = self.canvas.create_image(base_action[0], base_action[1], image=self.shapes[0])
-        # self.canvas.pack()
         ### 이전 상태 개수 구함 ###
         self.previous += self.previous
 
@@ -188,13 +171,8 @@ class Env(tk.Tk):
             if state[0] < (WIDTH - 1) * UNIT:
                 base_action[0] += UNIT
 
-
-
         # 에이전트 이동
         self.canvas.move(self.rectangle, base_action[0], base_action[1])
-
-
-
 
         # 에이전트(빨간 네모)를 가장 상위로 배치
         self.canvas.tag_raise(self.rectangle)
@@ -221,19 +199,15 @@ class Env(tk.Tk):
         return next_state, reward, done, {}
 
     def render(self):
-        time.sleep(0.03)
+        # time.sleep(0.001)
         self.update()
 
-    # def previous_state_record(self):
-    #     self.shapes2 = self.load_images()
-    #     self.rectangle2[previous] = canvas.create_image(x_pre, y_pre, image=self.shapes[0])
-
-
+## 이전 상태들을 그림
 class Previous_state_record(Env):
     def __init__(self, x_pre, y_pre):
         self.shapes2 = self.load_images()
         self.rectangle = self.canvas.create_image(x_pre, y_pre, image=self.shapes2[0])
 
+    # 이전 상태 이미지 리셋
     def reset(self):
         self.canvas.clear()
-

@@ -53,7 +53,7 @@ parser.add_argument('--suspend_accu_exp', type=float, default=0.8,
 parser.add_argument('--suspend_accu_gen', type=float, default=0.8,
                     help='accuracy for suspending discriminator about generated data (default: 0.8)')
 
-parser.add_argument('--max_iter_num', type=int, default=200,
+parser.add_argument('--max_iter_num', type=int, default=400,
                     help='maximal number of main iterations (default: 4000)')
 # parser.add_argument('--max_iter_num', type=int, default=4000,
                     # help='maximal number of main iterations (default: 4000)')
@@ -69,14 +69,15 @@ args = parser.parse_args()
 def main():
     expert_demo= pickle.load(open('./Lee_expert.p', "rb"))
 
-    print(expert_demo)
+    # print(expert_demo)
 
     expert_x = int(expert_demo[1][0])
     expert_y = int(expert_demo[1][1])
 
-    print('expert_x, expert_y = ', expert_x, expert_y)
+    # print('expert_x, expert_y = ', expert_x, expert_y)
 
     env = Env(expert_x, expert_y)
+    # env = Env(0,0)
     # env.seed(args.seed)
     # torch.manual_seed(args.seed)
 
@@ -99,9 +100,10 @@ def main():
     # load demonstrations
     # expert_demo, _ = pickle.load(open('./expert_demo/expert_demo.p', "rb"))
 
-    demonstrations = np.array(expert_demo)
+    demonstrations = np.array(expert_demo[0])
 
-    print("demonstrations.shape", demonstrations.shape)
+    # print("demonstrations.shape", demonstrations.shape)
+
     
     writer = SummaryWriter(args.logdir)
 
@@ -136,7 +138,7 @@ def main():
 
             state = running_state(state)
             
-            for _ in range(164):
+            for _ in range(5000):
                 if args.render:
                     env.render()
 
@@ -180,11 +182,12 @@ def main():
 
             if expert_acc > args.suspend_accu_exp and learner_acc > args.suspend_accu_gen:
                 train_discrim_flag = False
-                plt.plot(temp_learner)
-                plt.plot(temp_expert)
+                plt.plot(temp_learner, label = 'learner')
+                plt.plot(temp_expert, label = 'expert')
                 plt.xlabel('Episode')
                 plt.ylabel('Accuracy')
                 plt.xticks([])
+                plt.legend()
                 plt.savefig('accuracy.png')
                 plt.show()
 

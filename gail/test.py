@@ -7,7 +7,7 @@
 # $ python main.py --load_model ckpt_4000_gail.pth.tar
 
 import os
-import gym
+from environment import Env
 import torch
 import argparse
 
@@ -15,6 +15,7 @@ from model import Actor, Critic
 from utils.utils import get_action
 # import utils.zfilter
 from utils.zfilter import ZFilter
+import numpy as np
 
 
 parser = argparse.ArgumentParser()
@@ -33,12 +34,13 @@ args = parser.parse_args()
 
 
 if __name__ == "__main__":
-    env = gym.make(args.env)
-    env.seed(500)
+
+    env = Env(519, 206)
+    # env.seed(500)
     torch.manual_seed(500)
 
-    num_inputs = env.observation_space.shape[0]
-    num_actions = env.action_space.shape[0]
+    num_inputs = 2
+    num_actions = 4
 
     print("state size: ", num_inputs)
     print("action size: ", num_actions)
@@ -74,13 +76,15 @@ if __name__ == "__main__":
         state = env.reset()
         steps = 0
         score = 0
-        for _ in range(10000):
+        for _ in range(500):
             env.render()
+
             # mu, std, _ = actor(torch.Tensor(state).unsqueeze(0))
             mu, std = actor(torch.Tensor(state).unsqueeze(0))
+            action2 = np.argmax(get_action(mu, std)[0])
             action = get_action(mu, std)[0]
             print('mu, std :', mu, std)
-            next_state, reward, done, _ = env.step(action)
+            next_state, reward, done, _ = env.step(action2)
             print('1','next_state :', next_state)
             next_state = running_state(next_state) # ZFilter의 역할 : env 환경에 맞춰진 state 값을 반환
             print('2','next_state :', next_state)
