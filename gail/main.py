@@ -67,22 +67,18 @@ args = parser.parse_args()
 
 # env.build_canvas ####
 def main():
-    expert_demo= pickle.load(open('./Lee_expert.p', "rb"))
-
-    # print(expert_demo)
-
+    expert_demo= pickle.load(open('./Ree_expert.p', "rb"))
+    # print('expert_demo_shape : ', np.array(expert_demo).shape)
     expert_x = int(expert_demo[1][0])
     expert_y = int(expert_demo[1][1])
-
-    # print('expert_x, expert_y = ', expert_x, expert_y)
-
     env = Env(expert_x, expert_y)
     # env = Env(0,0)
+
     # env.seed(args.seed)
     # torch.manual_seed(args.seed)
 
     num_inputs = 2
-    num_actions = 4
+    num_actions = 8
     running_state = ZFilter((num_inputs,), clip=5)
 
     print('state size:', num_inputs) 
@@ -138,7 +134,7 @@ def main():
 
             state = running_state(state)
             
-            for _ in range(5000):
+            for _ in range(450):
                 if args.render:
                     env.render()
 

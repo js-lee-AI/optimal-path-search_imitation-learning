@@ -35,12 +35,12 @@ args = parser.parse_args()
 
 if __name__ == "__main__":
 
-    env = Env(519, 206)
+    env = Env(20, 20)
     # env.seed(500)
     torch.manual_seed(500)
 
     num_inputs = 2
-    num_actions = 4
+    num_actions = 8
 
     print("state size: ", num_inputs)
     print("action size: ", num_actions)

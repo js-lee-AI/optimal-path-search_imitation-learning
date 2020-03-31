@@ -127,7 +127,7 @@ class Env(tk.Tk):
 
     def reset(self):
         self.update()
-        # time.sleep(0.25)
+        time.sleep(0.5)
         x, y = self.canvas.coords(self.rectangle) # 시작점을 주면 됨.
 
         self.canvas.move(self.rectangle, -x, -y)
@@ -170,6 +170,23 @@ class Env(tk.Tk):
         elif action == 3:  # 우
             if state[0] < (WIDTH - 1) * UNIT:
                 base_action[0] += UNIT
+        elif action == 4 : # 좌상
+            if state[0] > UNIT and state[1] > UNIT:
+                base_action[0] -= UNIT
+                base_action[1] -= UNIT
+        elif action == 5 : # 우상
+            if state[0] < (WIDTH - 1) * UNIT and state[1] > UNIT:
+                base_action[0] += UNIT
+                base_action[1] -= UNIT
+        elif action == 6 : # 우하
+            if state[0] < (WIDTH - 1) * UNIT and state[1] < (HEIGHT - 1) * UNIT:
+                base_action[0] += UNIT
+                base_action[1] += UNIT
+        elif action == 7 : # 좌하
+            if state[0] > UNIT and state[1] < (HEIGHT - 1) * UNIT:
+                base_action[0] -= UNIT
+                base_action[1] += UNIT
+
 
         # 에이전트 이동
         self.canvas.move(self.rectangle, base_action[0], base_action[1])
@@ -199,7 +216,7 @@ class Env(tk.Tk):
         return next_state, reward, done, {}
 
     def render(self):
-        # time.sleep(0.001)
+        time.sleep(0.03)
         self.update()
 
 ## 이전 상태들을 그림
