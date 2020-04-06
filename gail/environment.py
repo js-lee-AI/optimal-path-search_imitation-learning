@@ -5,7 +5,7 @@ from PIL import ImageTk, Image
 
 np.random.seed(1)
 PhotoImage = ImageTk.PhotoImage
-UNIT = 3  # 픽셀 수
+UNIT = 4  # 픽셀 수
 HEIGHT = 500  # 그리드 월드 가로
 WIDTH = 500  # 그리드 월드 세로
 
@@ -121,8 +121,14 @@ class Env(tk.Tk):
                         # self.text_value(y, x, round(temp, 2), action)
 
     def coords_to_state(self, coords):
-        x = int((coords[0] - 5) / 10)
-        y = int((coords[1] - 5) / 10)
+        # x = int((coords[0] - 5) / 10)
+        # y = int((coords[1] - 5) / 10)
+        ##############################
+        # x = int((coords[0] - UNIT) / 2*UNIT)
+        # y = int((coords[1] - UNIT) / 2*UNIT)
+        x = int((coords[0] + UNIT / 2) / UNIT)
+        y = int((coords[1] + UNIT / 2) / UNIT)
+        # print([x,y])
         return [x, y]
 
     def reset(self):
@@ -210,9 +216,6 @@ class Env(tk.Tk):
         done = False ####
 
         next_state = self.coords_to_state(next_state)
-
-
-
         return next_state, reward, done, {}
 
     def render(self):

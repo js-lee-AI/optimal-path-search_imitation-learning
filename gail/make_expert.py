@@ -8,6 +8,11 @@ import torch.optim as optim
 from torch import nn
 import argparse
 
+parser.add_argument('--seed', type=int, default=500,
+                    help='random seed (default: 500)')
+parser.add_argument('--logdir', type=str, default='logs',
+                    help='tensorboardx logs directory')
+
 temp_learner = []
 temp_expert = []
 
@@ -49,10 +54,7 @@ parser.add_argument('--max_iter_num', type=int, default=5,
                     # help='maximal number of main iterations (default: 4000)')
 
 
-parser.add_argument('--seed', type=int, default=500,
-                    help='random seed (default: 500)')
-parser.add_argument('--logdir', type=str, default='logs',
-                    help='tensorboardx logs directory')
+
 args = parser.parse_args()
 class RunningStat(object):
     def __init__(self, shape):

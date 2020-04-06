@@ -24,7 +24,7 @@ temp_expert = []
 parser = argparse.ArgumentParser(description='PyTorch GAIL')
 parser.add_argument('--env_name', type=str, default="Hopper-v2", 
                     help='name of the environment to run')
-parser.add_argument('--load_model', type=str, default=None, 
+parser.add_argument('--load_model', type=str, default=None,
                     help='path to load the saved model')
 parser.add_argument('--render', action="store_true", default=False, 
                     help='if you dont want to render, set this to False')
@@ -32,7 +32,7 @@ parser.add_argument('--gamma', type=float, default=0.99,
                     help='discounted factor (default: 0.99)')
 parser.add_argument('--lamda', type=float, default=0.98, 
                     help='GAE hyper-parameter (default: 0.98)')
-parser.add_argument('--hidden_size', type=int, default=100, 
+parser.add_argument('--hidden_size', type=int, default=100,
                     help='hidden unit size of actor, critic and discrim networks (default: 100)')
 parser.add_argument('--learning_rate', type=float, default=3e-4, 
                     help='learning rate of models (default: 3e-4)')
@@ -53,7 +53,7 @@ parser.add_argument('--suspend_accu_exp', type=float, default=0.8,
 parser.add_argument('--suspend_accu_gen', type=float, default=0.8,
                     help='accuracy for suspending discriminator about generated data (default: 0.8)')
 
-parser.add_argument('--max_iter_num', type=int, default=400,
+parser.add_argument('--max_iter_num', type=int, default=25000,
                     help='maximal number of main iterations (default: 4000)')
 # parser.add_argument('--max_iter_num', type=int, default=4000,
                     # help='maximal number of main iterations (default: 4000)')
@@ -65,9 +65,17 @@ parser.add_argument('--logdir', type=str, default='logs',
                     help='tensorboardx logs directory')
 args = parser.parse_args()
 
-# env.build_canvas ####
+# env.build_canvas ####f
 def main():
-    expert_demo= pickle.load(open('./Ree_expert.p', "rb"))
+    expert_demo= pickle.load(open('./Ree1_expert.p', "rb"))
+    # Ree1 : action 1
+    # Ree2 : action 100
+    # Ree3 : action 50
+    # Ree4 : action 10
+    # Ree5 : action 4
+    # Ree6 : action 0.5
+
+
     # print('expert_demo_shape : ', np.array(expert_demo).shape)
     expert_x = int(expert_demo[1][0])
     expert_y = int(expert_demo[1][1])
@@ -75,7 +83,7 @@ def main():
     # env = Env(0,0)
 
     # env.seed(args.seed)
-    # torch.manual_seed(args.seed)
+    torch.manual_seed(args.seed)
 
     num_inputs = 2
     num_actions = 8
@@ -134,7 +142,7 @@ def main():
 
             state = running_state(state)
             
-            for _ in range(450):
+            for _ in range(1000):
                 if args.render:
                     env.render()
 
@@ -144,6 +152,7 @@ def main():
                 action2 = np.argmax(get_action(mu, std)[0])
                 action = get_action(mu, std)[0]
                 next_state, reward, done, _ = env.step(action2)
+                # next_state, reward, done, _ = env.step(action)
                 irl_reward = get_reward(discrim, state, action)
 
                 if done:
@@ -176,17 +185,21 @@ def main():
             temp_learner.append(learner_acc * 100)
             temp_expert.append(expert_acc * 100)
 
-            if expert_acc > args.suspend_accu_exp and learner_acc > args.suspend_accu_gen:
-                train_discrim_flag = False
+            if ((expert_acc > args.suspend_accu_exp and learner_acc > args.suspend_accu_gen and iter % 55==0)  or iter % 50 == 0):
+                # train_discrim_flag = False
                 plt.plot(temp_learner, label = 'learner')
                 plt.plot(temp_expert, label = 'expert')
                 plt.xlabel('Episode')
                 plt.ylabel('Accuracy')
                 plt.xticks([])
                 plt.legend()
-                plt.savefig('accuracy.png')
-                plt.show()
+                plt.savefig('accuracy{}.png'.format(iter))
+                # plt.show()
 
+                model_path = 'C:/Users/USER/9 GAIL/lets-do-irl/mujoco/gail'
+                ckpt_path = os.path.join(model_path, 'ckpt_' + str(score_avg) + '.pth.tar')
+
+                print("check path",ckpt_path)
                 save_checkpoint({
                     'actor': actor.state_dict(),
                     'critic': critic.state_dict(),
@@ -227,6 +240,6 @@ def main():
     plt.ylabel('Accuracy')
     plt.xticks([])
     plt.savefig('accuracy.png')
-    plt.show()
+    # plt.show()
 if __name__=="__main__":
     main()

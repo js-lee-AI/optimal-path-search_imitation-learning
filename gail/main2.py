@@ -133,8 +133,10 @@ def main():
 
                 steps += 1
 
+                print('state :', state)
                 mu, std = actor(torch.Tensor(state).unsqueeze(0))
                 action = get_action(mu, std)[0]
+                print(action)
                 print('aaa = ', action)
                 next_state, reward, done, _ = env.step(action)
                 irl_reward = get_reward(discrim, state, action)

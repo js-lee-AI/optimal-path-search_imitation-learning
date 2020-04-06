@@ -1,2 +1,0 @@
-from grid import Env
-
