@@ -1,2 +1,1 @@
-# js-lee-AI
-그림그리기 강화학습
+# VAIL Algorithm을 이용한 Serching the Optimal paths.
