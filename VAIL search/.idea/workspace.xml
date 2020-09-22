@@ -1,0 +1,324 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="d28b54e1-b3c9-4ab2-9b24-2da5a858a8c0" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../gail/GAIL_OpenCV.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gail/Lee_expert.p" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gail/Ree1_expert.p" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gail/Ree1_expert.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gail/Ree2_expert.p" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gail/Ree3_expert.p" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gail/Ree4_expert.p" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gail/Ree5_expert.p" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gail/Ree6_expert.p" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gail/Ree_expert (2).zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gail/Ree_expert.p" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gail/aa.ndjson" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gail/aa_expert.p" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gail/accuracy0.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gail/ckpt_1000.0.pth.tar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gail/ckpt_1000.pth.tar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gail/ckpt_4000.0.pth.tar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gail/ckpt_4000.pth.tar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gail/ckpt_450.pth.tar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gail/ckpt_5000.pth.tar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gail/convert_pickle.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gail/environment.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gail/expert_demo.p" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gail/expert_demo/expert_demo.p" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gail/expert_demo/tt.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gail/grid.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gail/img/circle.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gail/img/down.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gail/img/left.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gail/img/rectangle.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gail/img/right.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gail/img/triangle.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gail/img/up.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gail/initial_models/ckpt_2000.pth.tar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gail/initial_models/ckpt_4000_gail.pth.tar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gail/initial_models/ckpt_5000.pth.tar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gail/logs/events.out.tfevents.1584550141.DESKTOP-NOQCFCM" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gail/logs/events.out.tfevents.1584641900.DESKTOP-NOQCFCM" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gail/logs/events.out.tfevents.1584642038.DESKTOP-NOQCFCM" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gail/logs/events.out.tfevents.1584642313.DESKTOP-NOQCFCM" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gail/logs/events.out.tfevents.1584643221.DESKTOP-NOQCFCM" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gail/logs/events.out.tfevents.1584643358.DESKTOP-NOQCFCM" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gail/logs/events.out.tfevents.1584644382.DESKTOP-NOQCFCM" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gail/logs/events.out.tfevents.1584645019.DESKTOP-NOQCFCM" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gail/logs/events.out.tfevents.1584645566.DESKTOP-NOQCFCM" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gail/logs/events.out.tfevents.1585074070.DESKTOP-NOQCFCM" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gail/logs/events.out.tfevents.1585074137.DESKTOP-NOQCFCM" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gail/logs/events.out.tfevents.1585077824.DESKTOP-NOQCFCM" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gail/logs/events.out.tfevents.1585077911.DESKTOP-NOQCFCM" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gail/logs/events.out.tfevents.1585078131.DESKTOP-NOQCFCM" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gail/logs/events.out.tfevents.1585078161.DESKTOP-NOQCFCM" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gail/logs/events.out.tfevents.1585078196.DESKTOP-NOQCFCM" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gail/logs/events.out.tfevents.1585078488.DESKTOP-NOQCFCM" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gail/logs/events.out.tfevents.1585078665.DESKTOP-NOQCFCM" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gail/logs/events.out.tfevents.1585078703.DESKTOP-NOQCFCM" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gail/logs/events.out.tfevents.1585078867.DESKTOP-NOQCFCM" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gail/logs/events.out.tfevents.1585078871.DESKTOP-NOQCFCM" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gail/logs/events.out.tfevents.1585079249.DESKTOP-NOQCFCM" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gail/logs/events.out.tfevents.1585079308.DESKTOP-NOQCFCM" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gail/logs/events.out.tfevents.1585079343.DESKTOP-NOQCFCM" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gail/logs/events.out.tfevents.1585079364.DESKTOP-NOQCFCM" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gail/logs/events.out.tfevents.1585079511.DESKTOP-NOQCFCM" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gail/logs/events.out.tfevents.1585079645.DESKTOP-NOQCFCM" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gail/logs/events.out.tfevents.1585079684.DESKTOP-NOQCFCM" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gail/logs/events.out.tfevents.1585079746.DESKTOP-NOQCFCM" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gail/logs/events.out.tfevents.1585079903.DESKTOP-NOQCFCM" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gail/logs/events.out.tfevents.1585080016.DESKTOP-NOQCFCM" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gail/logs/events.out.tfevents.1585080054.DESKTOP-NOQCFCM" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gail/logs/events.out.tfevents.1585080083.DESKTOP-NOQCFCM" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gail/logs/events.out.tfevents.1585146460.DESKTOP-NOQCFCM" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gail/logs/events.out.tfevents.1585146497.DESKTOP-NOQCFCM" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gail/logs/events.out.tfevents.1585146636.DESKTOP-NOQCFCM" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gail/logs/events.out.tfevents.1585146652.DESKTOP-NOQCFCM" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gail/logs/events.out.tfevents.1585146683.DESKTOP-NOQCFCM" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gail/logs/events.out.tfevents.1585146808.DESKTOP-NOQCFCM" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gail/logs/events.out.tfevents.1585146823.DESKTOP-NOQCFCM" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gail/logs/events.out.tfevents.1585146907.DESKTOP-NOQCFCM" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gail/logs/events.out.tfevents.1585147064.DESKTOP-NOQCFCM" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gail/logs/events.out.tfevents.1585147345.DESKTOP-NOQCFCM" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gail/logs/events.out.tfevents.1585148539.DESKTOP-NOQCFCM" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gail/logs/events.out.tfevents.1585149673.DESKTOP-NOQCFCM" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gail/logs/events.out.tfevents.1585149766.DESKTOP-NOQCFCM" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gail/logs/events.out.tfevents.1585149796.DESKTOP-NOQCFCM" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gail/logs/events.out.tfevents.1585149842.DESKTOP-NOQCFCM" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gail/logs/events.out.tfevents.1585154378.DESKTOP-NOQCFCM" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gail/logs/events.out.tfevents.1585154527.DESKTOP-NOQCFCM" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gail/logs/events.out.tfevents.1585154744.DESKTOP-NOQCFCM" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gail/logs/events.out.tfevents.1585155220.DESKTOP-NOQCFCM" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gail/logs/events.out.tfevents.1585155250.DESKTOP-NOQCFCM" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gail/logs/events.out.tfevents.1585155402.DESKTOP-NOQCFCM" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gail/logs/events.out.tfevents.1585155466.DESKTOP-NOQCFCM" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gail/logs/events.out.tfevents.1585155498.DESKTOP-NOQCFCM" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gail/logs/events.out.tfevents.1585155527.DESKTOP-NOQCFCM" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gail/logs/events.out.tfevents.1585155575.DESKTOP-NOQCFCM" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gail/logs/events.out.tfevents.1585155645.DESKTOP-NOQCFCM" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gail/logs/events.out.tfevents.1585155740.DESKTOP-NOQCFCM" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gail/logs/events.out.tfevents.1585155785.DESKTOP-NOQCFCM" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gail/logs/events.out.tfevents.1585155844.DESKTOP-NOQCFCM" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gail/logs/events.out.tfevents.1585155968.DESKTOP-NOQCFCM" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gail/logs/events.out.tfevents.1585156079.DESKTOP-NOQCFCM" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gail/logs/events.out.tfevents.1585156191.DESKTOP-NOQCFCM" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gail/logs/events.out.tfevents.1585156255.DESKTOP-NOQCFCM" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gail/logs/events.out.tfevents.1585156353.DESKTOP-NOQCFCM" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gail/logs/events.out.tfevents.1585156412.DESKTOP-NOQCFCM" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gail/logs/events.out.tfevents.1585156630.DESKTOP-NOQCFCM" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gail/logs/events.out.tfevents.1585156674.DESKTOP-NOQCFCM" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gail/logs/events.out.tfevents.1585156700.DESKTOP-NOQCFCM" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gail/logs/events.out.tfevents.1585156998.DESKTOP-NOQCFCM" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gail/logs/events.out.tfevents.1585157049.DESKTOP-NOQCFCM" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gail/logs/events.out.tfevents.1585157455.DESKTOP-NOQCFCM" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gail/logs/events.out.tfevents.1585157481.DESKTOP-NOQCFCM" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gail/logs/events.out.tfevents.1585157599.DESKTOP-NOQCFCM" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gail/logs/events.out.tfevents.1585157651.DESKTOP-NOQCFCM" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gail/logs/events.out.tfevents.1585157672.DESKTOP-NOQCFCM" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gail/logs/events.out.tfevents.1585157789.DESKTOP-NOQCFCM" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gail/logs/events.out.tfevents.1585158049.DESKTOP-NOQCFCM" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gail/logs/events.out.tfevents.1585158240.DESKTOP-NOQCFCM" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gail/logs/events.out.tfevents.1585158320.DESKTOP-NOQCFCM" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gail/logs/events.out.tfevents.1585158372.DESKTOP-NOQCFCM" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gail/logs/events.out.tfevents.1585158405.DESKTOP-NOQCFCM" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gail/logs/events.out.tfevents.1585159825.DESKTOP-NOQCFCM" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gail/logs/events.out.tfevents.1585160141.DESKTOP-NOQCFCM" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gail/logs/events.out.tfevents.1585161315.DESKTOP-NOQCFCM" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gail/logs/events.out.tfevents.1585161620.DESKTOP-NOQCFCM" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gail/logs/events.out.tfevents.1585161641.DESKTOP-NOQCFCM" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gail/logs/events.out.tfevents.1585161657.DESKTOP-NOQCFCM" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gail/logs/events.out.tfevents.1585161768.DESKTOP-NOQCFCM" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gail/logs/events.out.tfevents.1585161932.DESKTOP-NOQCFCM" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gail/logs/events.out.tfevents.1585161967.DESKTOP-NOQCFCM" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gail/logs/events.out.tfevents.1585162386.DESKTOP-NOQCFCM" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gail/logs/events.out.tfevents.1585162427.DESKTOP-NOQCFCM" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gail/logs/events.out.tfevents.1585162439.DESKTOP-NOQCFCM" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gail/logs/events.out.tfevents.1585162446.DESKTOP-NOQCFCM" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gail/logs/events.out.tfevents.1585162457.DESKTOP-NOQCFCM" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gail/logs/events.out.tfevents.1585162469.DESKTOP-NOQCFCM" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gail/logs/events.out.tfevents.1585163613.DESKTOP-NOQCFCM" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gail/logs/events.out.tfevents.1585164170.DESKTOP-NOQCFCM" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gail/logs/events.out.tfevents.1585164230.DESKTOP-NOQCFCM" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gail/logs/events.out.tfevents.1585164256.DESKTOP-NOQCFCM" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gail/logs/events.out.tfevents.1585164330.DESKTOP-NOQCFCM" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gail/logs/events.out.tfevents.1585165618.DESKTOP-NOQCFCM" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gail/logs/events.out.tfevents.1585165965.DESKTOP-NOQCFCM" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gail/logs/events.out.tfevents.1585166035.DESKTOP-NOQCFCM" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gail/logs/events.out.tfevents.1585166083.DESKTOP-NOQCFCM" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gail/logs/events.out.tfevents.1585166139.DESKTOP-NOQCFCM" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gail/logs/events.out.tfevents.1585166508.DESKTOP-NOQCFCM" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gail/logs/events.out.tfevents.1585166722.DESKTOP-NOQCFCM" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gail/logs/events.out.tfevents.1585166775.DESKTOP-NOQCFCM" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gail/logs/events.out.tfevents.1585166844.DESKTOP-NOQCFCM" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gail/logs/events.out.tfevents.1585166976.DESKTOP-NOQCFCM" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gail/logs/events.out.tfevents.1585167349.DESKTOP-NOQCFCM" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gail/logs/events.out.tfevents.1585171302.DESKTOP-NOQCFCM" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gail/logs/events.out.tfevents.1585171386.DESKTOP-NOQCFCM" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gail/logs/events.out.tfevents.1585173519.DESKTOP-NOQCFCM" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gail/logs/events.out.tfevents.1585173547.DESKTOP-NOQCFCM" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gail/logs/events.out.tfevents.1585173672.DESKTOP-NOQCFCM" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gail/logs/events.out.tfevents.1585580344.DESKTOP-NOQCFCM" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gail/logs/events.out.tfevents.1585580360.DESKTOP-NOQCFCM" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gail/logs/events.out.tfevents.1585580372.DESKTOP-NOQCFCM" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gail/logs/events.out.tfevents.1585580382.DESKTOP-NOQCFCM" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gail/logs/events.out.tfevents.1585580445.DESKTOP-NOQCFCM" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gail/logs/events.out.tfevents.1585583139.DESKTOP-NOQCFCM" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gail/logs/events.out.tfevents.1585583571.DESKTOP-NOQCFCM" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gail/logs/events.out.tfevents.1585583789.DESKTOP-NOQCFCM" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gail/logs/events.out.tfevents.1585583963.DESKTOP-NOQCFCM" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gail/logs/events.out.tfevents.1585584124.DESKTOP-NOQCFCM" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gail/logs/events.out.tfevents.1585584263.DESKTOP-NOQCFCM" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gail/logs/events.out.tfevents.1585584276.DESKTOP-NOQCFCM" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gail/logs/events.out.tfevents.1585585919.DESKTOP-NOQCFCM" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gail/logs/events.out.tfevents.1585589723.DESKTOP-NOQCFCM" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gail/logs/events.out.tfevents.1585669935.DESKTOP-NOQCFCM" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gail/logs/events.out.tfevents.1585670086.DESKTOP-NOQCFCM" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gail/logs/events.out.tfevents.1585672736.DESKTOP-NOQCFCM" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gail/logs/events.out.tfevents.1585673116.DESKTOP-NOQCFCM" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gail/logs/events.out.tfevents.1585673141.DESKTOP-NOQCFCM" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gail/logs/events.out.tfevents.1585673371.DESKTOP-NOQCFCM" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gail/logs/events.out.tfevents.1585679597.DESKTOP-NOQCFCM" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gail/logs/events.out.tfevents.1585679744.DESKTOP-NOQCFCM" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gail/logs/events.out.tfevents.1585683429.DESKTOP-NOQCFCM" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gail/logs/events.out.tfevents.1585752094.DESKTOP-NOQCFCM" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gail/logs/events.out.tfevents.1585752159.DESKTOP-NOQCFCM" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gail/logs/events.out.tfevents.1585752384.DESKTOP-NOQCFCM" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gail/logs/events.out.tfevents.1585753273.DESKTOP-NOQCFCM" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gail/logs/events.out.tfevents.1585754164.DESKTOP-NOQCFCM" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gail/logs/events.out.tfevents.1585754188.DESKTOP-NOQCFCM" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gail/logs/events.out.tfevents.1585755729.DESKTOP-NOQCFCM" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gail/logs/events.out.tfevents.1585755777.DESKTOP-NOQCFCM" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gail/logs/events.out.tfevents.1585755918.DESKTOP-NOQCFCM" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gail/logs/events.out.tfevents.1585756821.DESKTOP-NOQCFCM" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gail/logs/events.out.tfevents.1585760207.DESKTOP-NOQCFCM" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gail/logs/events.out.tfevents.1585760220.DESKTOP-NOQCFCM" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gail/logs/events.out.tfevents.1585760250.DESKTOP-NOQCFCM" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gail/logs/events.out.tfevents.1585760549.DESKTOP-NOQCFCM" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gail/logs/events.out.tfevents.1585761764.DESKTOP-NOQCFCM" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gail/logs/events.out.tfevents.1585763060.DESKTOP-NOQCFCM" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gail/logs/events.out.tfevents.1585763076.DESKTOP-NOQCFCM" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gail/logs/events.out.tfevents.1585764150.DESKTOP-NOQCFCM" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gail/logs/events.out.tfevents.1585765387.DESKTOP-NOQCFCM" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gail/logs/events.out.tfevents.1585765397.DESKTOP-NOQCFCM" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gail/logs/events.out.tfevents.1585765564.DESKTOP-NOQCFCM" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gail/logs/events.out.tfevents.1585767777.DESKTOP-NOQCFCM" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gail/logs/events.out.tfevents.1585768803.DESKTOP-NOQCFCM" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gail/logs/events.out.tfevents.1585769377.DESKTOP-NOQCFCM" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gail/logs/events.out.tfevents.1585769432.DESKTOP-NOQCFCM" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gail/logs/events.out.tfevents.1585769537.DESKTOP-NOQCFCM" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gail/logs/events.out.tfevents.1585769788.DESKTOP-NOQCFCM" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gail/logs/events.out.tfevents.1585769910.DESKTOP-NOQCFCM" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gail/logs/events.out.tfevents.1585770387.DESKTOP-NOQCFCM" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gail/logs/events.out.tfevents.1585770428.DESKTOP-NOQCFCM" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gail/logs/events.out.tfevents.1585772056.DESKTOP-NOQCFCM" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gail/logs/events.out.tfevents.1585772115.DESKTOP-NOQCFCM" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gail/logs/events.out.tfevents.1585772174.DESKTOP-NOQCFCM" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gail/logs/events.out.tfevents.1585772270.DESKTOP-NOQCFCM" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gail/logs/events.out.tfevents.1585780658.DESKTOP-NOQCFCM" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gail/logs/events.out.tfevents.1585853748.DESKTOP-NOQCFCM" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gail/logs/events.out.tfevents.1585868823.DESKTOP-NOQCFCM" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gail/logs/events.out.tfevents.1585868837.DESKTOP-NOQCFCM" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gail/logs/events.out.tfevents.1585868857.DESKTOP-NOQCFCM" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gail/logs/events.out.tfevents.1585868868.DESKTOP-NOQCFCM" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gail/logs/events.out.tfevents.1585868904.DESKTOP-NOQCFCM" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gail/logs/events.out.tfevents.1585868939.DESKTOP-NOQCFCM" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gail/logs/events.out.tfevents.1585868977.DESKTOP-NOQCFCM" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gail/logs/events.out.tfevents.1585869006.DESKTOP-NOQCFCM" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gail/logs/events.out.tfevents.1585869115.DESKTOP-NOQCFCM" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gail/logs/events.out.tfevents.1585869130.DESKTOP-NOQCFCM" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gail/logs/events.out.tfevents.1585869149.DESKTOP-NOQCFCM" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gail/main.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gail/main2.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gail/make_expert.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gail/model.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gail/save_model/ckpt_4000.0.pth.tar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gail/save_model/ckpt_4000_gail.pth.tar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gail/save_model/ckpt_450.pth.tar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gail/save_model/ckpt_500.pth.tar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gail/save_model/ckpt_epoch55.pth.tar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gail/test.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gail/train_model.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gail/utils/utils.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gail/utils/zfilter.py" beforeDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectId" id="1hsF3GTLCKpvoam0YRPYwohyqnW" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="PropertiesComponent">
+    <property name="last_opened_file_path" value="$USER_HOME$/9 GAIL/GAIL_Sketch/gail/vail" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="main" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="VAIL search" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/main.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.main" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="d28b54e1-b3c9-4ab2-9b24-2da5a858a8c0" name="Default Changelist" comment="" />
+      <created>1600791691447</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1600791691447</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>
