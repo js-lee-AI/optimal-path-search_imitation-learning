@@ -71,13 +71,13 @@ You should need expert data to find approximately 400-500 shortest paths.
 
 
 ## Related papers
-- [1] [J. Ho, et al., "Generative Adversarial Imitation Learning", NIPS 2016.](https://papers.nips.cc/paper/6391-generative-adversarial-imitation-learning.pdf)
+- [1] J. Ho, et al., ["Generative Adversarial Imitation Learning"], NIPS 2016.(https://papers.nips.cc/paper/6391-generative-adversarial-imitation-learning.pdf)
 
-- [2] [XB. Peng, et al., "Variational Discriminator Bottleneck. Improving Imitation Learning, Inverse RL, and GANs by Constraining Information Flow", ICLR 2019.](https://arxiv.org/pdf/1810.00821.pdf)
+- [2] Xue Bin Peng, et al., ["Variational Discriminator Bottleneck. Improving Imitation Learning, Inverse RL, and GANs by Constraining Information Flow"], ICLR 2019.(https://arxiv.org/pdf/1810.00821.pdf)
 
 
 ## Referenced code
-[RL-korea : Dongmin Lee](https://github.com/reinforcement-learning-kr/lets-do-irl)
+RL-korea : [Dongmin Lee](https://github.com/reinforcement-learning-kr/lets-do-irl)
 
 ## Author
 Jungseob Lee / [ js-lee-AI](https://github.com/js-lee-AI) / omanma1928@naver.com
