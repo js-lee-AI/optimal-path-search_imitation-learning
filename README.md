@@ -1,12 +1,23 @@
-
 # Imitation Learning; Optimal Multiple Path Search Using VAIL
-
-## Demo
 
 ## How to
 
+The Customized environment and actions
+
+![environment actions](./img/girdworld-AE.PNG)<br>
+
+
+***environment.py*** : Currently, the customized Grid-World of the 20x20 pixel window is configured.
+
+***Expert dataset 1,2*** : Examples of configuring expert dataset with the pickle module
+
+***expert_generator.py*** : You can use this file to create expert data.
+
+***main.py*** : You can run this program by running ***main.py***.
+
 ## Result
-### two obstacles
+### two obstacles - 10 x 10 GridWorld
+You should need expert data to find approximately 50 shortest paths.
 
 **150 epoch**
 
@@ -18,6 +29,7 @@
 
 
 ### four obstacles - easy path
+You should need expert data to find approximately 200 shortest paths.
 
 **300 epoch**
 
@@ -41,6 +53,7 @@
 
 
 ### four obstacles - difficult path
+You should need expert data to find approximately 400-500 shortest paths.
 
 **700 epoch**
 
