@@ -81,5 +81,3 @@ RL-korea : [Dongmin Lee, et al.](https://github.com/reinforcement-learning-kr/le
 
 ## Author
 Jungseob Lee / [ js-lee-AI](https://github.com/js-lee-AI) / omanma1928@naver.com
-
-Juhoon Kim / [galaxy1014](https://github.com/galaxy1014) / galaxy1014@naver.com
