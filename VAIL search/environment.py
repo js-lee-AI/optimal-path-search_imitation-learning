@@ -17,11 +17,6 @@ noize = 0 * UNIT
 
 obstacle_size = 1
 
-# obstacle1_xxyy = [9, 11, 9, 11]
-# obstacle2_xxyy = [2, 4, 6, 8]
-# obstacle3_xxyy = [15, 17, 15, 17]
-# obstacle4_xxyy = [15, 17, 1, 3]
-
 obstacle1_xxyy = [9, 11, 9, 11]
 obstacle2_xxyy = [12, 14, 9, 11]
 obstacle3_xxyy = [15, 17, 9, 11]
