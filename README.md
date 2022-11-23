@@ -21,11 +21,11 @@ You should need expert data to find approximately 50 shortest paths.
 
 	This is a captured image executed from our old code.
 
-**150 epoch**
+**150 episode**
 
 ![two obstacle-150](./img/2obstacle-150epoch.PNG)<br>
 
-**500 epoch**
+**500 episode**
 
 ![two obstacle-500](./img/2obstacle-500epoch.PNG)<br>
 
@@ -33,23 +33,23 @@ You should need expert data to find approximately 50 shortest paths.
 ### four obstacles - easy path
 You should need expert data to find approximately 200 shortest paths.
 
-**300 epoch**
+**300 episode**
 
 ![four obstacle0-300](./img/epoch-300.png)<br>
 
-**500 epoch**
+**500 episode**
 
 ![four obstacle0-500](./img/epoch-500.PNG)<br>
 
-**700 epoch**
+**700 episode**
 
 ![four obstacle0-700](./img/epoch-500.PNG)<br>
 
-**900 epoch**
+**900 episode**
 
 ![four obstacle0-900](./img/epoch-900.PNG)<br>
 
-**1000 epoch**
+**1000 episode**
 
 ![four obstacle0-1000](./img/epoch-1000.PNG)<br>
 
@@ -57,15 +57,15 @@ You should need expert data to find approximately 200 shortest paths.
 ### four obstacles - difficult path
 You should need expert data to find approximately 400-500 shortest paths.
 
-**700 epoch**
+**700 episode**
 
 ![four obstacle1-700](./img/4opstacle2_epoch-700.png)<br>
 
-**900 epoch**
+**900 episode**
 
 ![four obstacle1-900](./img/4opstacle2_epoch-900.png)<br>
 
-**1000 epoch**
+**1000 episode**
 
 ![four obstacle1-1000](./img/4opstacle2_epoch-900.png)<br>
 
@@ -76,7 +76,7 @@ You should need expert data to find approximately 400-500 shortest paths.
 - [2] Xue Bin Peng, et al., ["Variational Discriminator Bottleneck. Improving Imitation Learning, Inverse RL, and GANs by Constraining Information Flow"](https://arxiv.org/pdf/1810.00821.pdf), ICLR 2019.
 
 
-## Referenced code
+## Reference
 RL-korea : [Dongmin Lee, et al.](https://github.com/reinforcement-learning-kr/lets-do-irl)
 
 ## Author
